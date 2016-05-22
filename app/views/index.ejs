@@ -9,6 +9,13 @@
     <title>
         <%= title %>
     </title>
+
+    <!-- core CSS -->
+
+    <link data-require="bootstrap-css@*" data-semver="3.0.0" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+
+
+
 </head>
 
 <body>
@@ -19,7 +26,9 @@
 
         <section ng-view></section>
 
-        <script type="text/javascript" src="/lib/angular/angular.js"></script>
+        <script type="text/javascript" src="/lib/angular/angular.js"></script>        
+        <script type="text/javascript" src="/lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <script type="text/javascript" src="/lib/angular-animate/angular-animate.js"></script>
         <script type="text/javascript" src="/lib/angular-route/angular-route.js"></script>
         <script type="text/javascript" src="/application.js"></script>
 
@@ -29,6 +38,9 @@
         <script type="text/javascript" src="/example/config/example.client.routes.js"></script>
 
         <div ng-include="'example/views/templates/footer.client.view.html'"> </div>
+        
+       
+        
     </div>
     <!--/#Wrapper-->
 </body>
