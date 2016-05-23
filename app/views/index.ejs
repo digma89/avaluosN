@@ -11,18 +11,16 @@
     </title>
 
     <!-- core CSS -->
-
-    <link data-require="bootstrap-css@*" data-semver="3.0.0" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-
-
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
 </head>
 
 <body>
     <div id="wrapper">
         <div ng-include="'example/views/templates/header.client.view.html'"> </div>
-
-        <h1><%= title %></h1>
+   
 
         <section ng-view></section>
 
