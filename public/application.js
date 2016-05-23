@@ -8,6 +8,11 @@ mainApplicationModule.config(['$locationProvider',
     }
 ]);
 
+mainApplicationModule.config(['$routeProvider', '$compileProvider', function($routeProvider, $compileProvider) {
+    //configure routeProvider as usual
+    $compileProvider.debugInfoEnabled(false);
+}]);
+
 angular.element(document).ready(function(){
     angular.bootstrap(document, [mainApplicationModuleName]);
 });
