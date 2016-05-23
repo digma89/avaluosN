@@ -1,0 +1,89 @@
+
+/*Remove dotted line when clik something*/
+a{
+outline: medium none !important;
+}
+
+/*************************
+*******Typography******
+**************************/
+
+/*************************
+*******General******
+**************************/
+.img-responsive{
+  width: 100%;  
+}
+
+/*************************
+*******Header******
+**************************/
+
+
+.navbar {
+
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+/*************************
+*******Home Page******
+**************************/
+
+
+
+/*************************
+********* Projects CSS ******
+**************************/
+
+
+/*************************
+********* Contact CSS ******
+**************************/
+
+
+
+/***********************
+********* Footer ******
+************************/
+
+
+footer {  
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #777777;
+  background: #f8f8f8;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  bottom: 0px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border:solid 1px;
+  border-color:#e7e7e7;
+}
+
+footer a {
+  color: #777777;
+}
+
+footer a:hover {
+  color: #333333;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul > li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+
+
+
+
