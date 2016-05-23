@@ -5,3 +5,4 @@ angular.module('example').controller('ExampleController', ['$scope', '$location'
         };
     },
 ]);
+
