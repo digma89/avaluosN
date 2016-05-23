@@ -1,4 +1,4 @@
-<header>
+<header ng-controller="ExampleController" >
     <div class="logo hidden-xs">
         <a href="/#!/"><img class="img-responsive" ng-src="images/logoSin.png " alt="logo"></a>
     </div>
@@ -18,10 +18,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
                 <ul class="nav navbar-nav" >
-                    <li  class="active"><a href="/#!/">Inicio</a></li>
-                    <li><a href="/#!/">Quiénes Somos</a></li>
-                    <li><a href="/#!/">Servicios</a></li>
-                    <li><a href="/#!/">Contacto</a></li>
+                    <li ng-class="{active:isActive('/')}"><a href="/#!/">Inicio</a></li>
+                    <li ng-class="{active:isActive('/quienesSomos')}"><a href="/#!/quienesSomos">Quiénes somos</a></li>
+                    <li ng-class="{active:isActive('/servicios')}"><a href="/#!/servicios">Servicios</a></li>
+                    <li ng-class="{active:isActive('/contacto')}"><a href="/#!/contacto">Contacto</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
