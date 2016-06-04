@@ -21,6 +21,13 @@ header{
   padding-left:15px; 
 }
 
+/*******Home********/
+#content{
+  padding-bottom: 150px ;
+  margin:50px auto 0px auto;     
+  padding-top: 150px ; 
+}
+
 /*******Contacto********/
 #contact{
    width:40%;
@@ -53,8 +60,15 @@ header{
   padding-left:15px; 
 }
 
+/*******Home********/
+#content{
+  padding-bottom: 150px ;
+  margin:50px auto 0px auto;     
+  padding-top: 150px ; 
+}
+
 /*******Contacto********/
-#contact{
+#contact{  
    padding-top:100px;
    width:60%;
    margin:auto; 
@@ -86,8 +100,16 @@ header{
   padding-left:15px;  
 }
 
+/*******Home********/
+#content{
+  padding-bottom: 150px ;
+  margin:50px auto 0px auto;     
+  padding-top: 150px ; 
+}
+
 /*******Contacto********/
 #contact{
+  
    padding-top:70px;
    width:40%;
    margin:auto; 
@@ -113,6 +135,13 @@ header{
   width: 60%;
 }
 
+/*******Home********/
+#content{
+  padding-bottom: 150px ;
+  margin:50px auto 0px auto;     
+  padding-top: 20px ; 
+}
+
 /*******Contacto********/
 #contact{
    width:80%;
@@ -132,6 +161,19 @@ header{
   margin:auto;
   padding-top:15px; 
 }  
+
+/*******Home********/
+#content{
+  padding-bottom: 20px ;
+  margin:0px auto 0px auto;
+}
+
+/*******Home********/
+#content{
+  padding-bottom: 150px ;
+  margin:50px auto 0px auto;     
+  padding-top: 5px ; 
+}
 
 /*******Contacto********/
  #contact{
