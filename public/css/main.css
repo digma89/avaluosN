@@ -22,7 +22,6 @@ body{
 }
 
 #content {
-  width: 70%;  
   -moz-border-radius: 5px;
   border-radius: 5px;  
 }
@@ -53,7 +52,7 @@ border-radius: 5px;
 
 .imagenCasa{
   right: 0;
-  max-width: 400px; 
+  max-width: 600px; 
   
 }
 
