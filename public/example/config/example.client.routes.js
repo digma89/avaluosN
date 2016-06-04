@@ -16,7 +16,7 @@ angular.module('example').config(['$routeProvider',
              when('/contacto', {
                 templateUrl: '/example/views/partials/contacto.client.view.html',
                 activetab: '4', 
-                controller: 'contactController'
+                controller: 'contactoController'
             }).
             otherwise({
                 redirecTo: '/'

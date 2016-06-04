@@ -1,4 +1,4 @@
-angular.module('example').controller('contactController', ['$scope', '$http',
+angular.module('example').controller('contactoController', ['$scope', '$http',
  function ($scope, $http) {
 	    $scope.result = 'hidden'
 	    $scope.resultMessage;
