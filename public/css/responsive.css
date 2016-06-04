@@ -21,6 +21,13 @@ header{
   padding-left:15px; 
 }
 
+/*******Contacto********/
+#contact{
+   width:40%;
+   margin:auto; 
+   padding-top:150px;
+}
+
 }
 
 /*************************
@@ -45,7 +52,14 @@ header{
   margin-top:8%; 
   padding-left:15px; 
 }
- 
+
+/*******Contacto********/
+#contact{
+   padding-top:100px;
+   width:60%;
+   margin:auto; 
+}
+
 }
 
 
@@ -71,6 +85,13 @@ header{
   margin-top:6%; 
   padding-left:15px;  
 }
+
+/*******Contacto********/
+#contact{
+   padding-top:70px;
+   width:40%;
+   margin:auto; 
+}
  
  
 }
@@ -92,6 +113,12 @@ header{
   width: 60%;
 }
 
+/*******Contacto********/
+#contact{
+   width:80%;
+   margin:auto; 
+}
+
 }
 
 /*************************
@@ -104,7 +131,13 @@ header{
   width: 90%;
   margin:auto;
   padding-top:15px; 
-}   
+}  
+
+/*******Contacto********/
+ #contact{
+   width:100%;
+   margin:auto; 
+}
 
 
 
