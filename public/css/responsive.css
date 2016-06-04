@@ -21,6 +21,20 @@ header{
   padding-left:15px; 
 }
 
+/*******General********/
+.containerLeft{
+  float:left;
+  width:48%;
+  margin-right:5px;
+}
+
+.containerRight{
+  float:right;
+  width:48%;
+  margin-right:5px;
+}
+
+
 /*******Home********/
 #content{
   padding-bottom: 150px ;
@@ -32,16 +46,18 @@ header{
   width:70%;
 }
 
-.imagenCasa{
-  float:left;
-  width:48%;
-  margin-right:5px;
+/*******Quienes somos********/
+.containerQuienesSomos{
+  width:70%;
 }
 
-.textoHome{
-  float:right;
-  width:48%; 
-  margin-left:5px;  
+.boxQuienes{
+  padding-bottom: 85px;
+   width:100%;
+}
+
+.imgLider{
+  padding-bottom: 100px;
 }
 
 /*******Contacto********/
@@ -76,6 +92,19 @@ header{
   padding-left:15px; 
 }
 
+/*******General********/
+.containerLeft{
+  float:left;
+  width:48%;
+  margin-right:5px;
+}
+
+.containerRight{
+  float:right;
+  width:48%;
+  margin-right:5px;
+}
+
 /*******Home********/
 #content{
   padding-bottom: 150px ;
@@ -87,16 +116,18 @@ header{
   width:70%;
 }
 
-.imagenCasa{
-  float:left;
-  width:48%;
-  margin-right:5px;
+/*******Quienes somos********/
+.containerQuienesSomos{
+  width:70%;
 }
 
-.textoHome{
-  float:right;
-  width:48%; 
-  margin-left:5px;  
+.boxQuienes{
+  padding-bottom: 85px;
+   width:100%;
+}
+
+.imgLider{
+  padding-bottom: 100px;
 }
 
 /*******Contacto********/
@@ -132,6 +163,19 @@ header{
   padding-left:15px;  
 }
 
+/*******General********/
+.containerLeft{
+  float:left;
+  width:48%;
+  margin-right:5px;
+}
+
+.containerRight{
+  float:right;
+  width:48%;
+  margin-right:5px;
+}
+
 /*******Home********/
 #content{
   padding-bottom: 150px ;
@@ -143,17 +187,18 @@ header{
   width:85%;
 }
 
-
-.imagenCasa{
-  float:left;
-  width:48%;
-  margin-right:5px;
+/*******Quienes somos********/
+.containerQuienesSomos{
+  width:70%;
 }
 
-.textoHome{
-  float:right;
-  width:48%; 
-  margin-left:5px;  
+.boxQuienes{
+  padding-bottom: 85px;
+   width:100%;
+}
+
+.imgLider{
+  padding-bottom: 100px;
 }
 
 /*******Contacto********/
@@ -184,6 +229,17 @@ header{
   width: 60%;
 }
 
+/*******General********/
+.containerLeft{
+  width:90%;
+  margin: auto;
+}
+
+.containerRight{
+  width:90%;
+  margin: auto;
+}
+
 /*******Home********/
 #content{
   padding-bottom: 150px ;
@@ -195,14 +251,19 @@ header{
   width:70%;
 }
 
-.imagenCasa{  
+
+/*******Quienes somos********/
+.containerQuienesSomos{
   width:90%;
-  margin: auto;
 }
 
-.textoHome{
-  width:90%;
-  margin: auto;
+.boxQuienes{
+  padding-bottom: 25px;
+   width:100%;
+}
+
+.imgLider{
+  padding-bottom: 20px;
 }
 
 /*******Contacto********/
@@ -225,6 +286,22 @@ header{
   padding-top:15px; 
 }  
 
+/*******General********/
+.containerLeft{
+  width:90%;
+  margin: auto;
+}
+
+.containerRight{
+  width:90%;
+  margin: auto;
+}
+
+.texto{
+  font-size: 15px;
+  text-align: justify;
+}
+
 /*******Home********/
 #content{
   padding-bottom: 150px ;
@@ -245,6 +322,19 @@ header{
   margin: auto;
 }
 
+/*******Quienes somos********/
+.containerQuienesSomos{
+  width:90%;
+}
+
+.boxQuienes{
+  padding-bottom: 25px;
+   width:100%;
+}
+
+.imgLider{
+  padding-bottom: 20px;
+}
 
 /*******Contacto********/
  #contact{
