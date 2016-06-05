@@ -46,6 +46,12 @@ header{
   width:70%;
 }
 
+.homeSliderMarginstyle{
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px; 
+}
+
 /*******Quienes somos********/
 .containerQuienesSomos{
   width:70%;
@@ -321,6 +327,8 @@ header{
   width:90%;
   margin: auto;
 }
+
+
 
 /*******Quienes somos********/
 .containerQuienesSomos{

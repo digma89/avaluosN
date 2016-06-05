@@ -1,7 +1,19 @@
-<section id="content" >
-    <div class="container containerHome" >
-        <div class=" imagenCasa containerLeft" ><img class="img-responsive" src="images/casa.jpg"alt="casa"></div>
-        <div class=" texto containerRight" >
+<section id="content">
+
+    <div ng-controller="CarouselDemoCtrl" class="homeSliderMarginstyle">
+        <div>
+            <uib-carousel hide-indicators="true" active="active" interval="myInterval" no-wrap="noWrapSlides">
+                <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+                    <img ng-src="{{slide.image}}" class="img-carousel-a">
+                </uib-slide>
+            </uib-carousel>
+        </div>
+        <!--/#main-slider-->
+    </div>
+    
+    <div class="container containerHome">
+        <div class=" imagenCasa containerLeft"><img class="img-responsive" src="images/casa.jpg" alt="casa"></div>
+        <div class=" texto containerRight">
             <h2>¿Qué es un Avalúo?</h2>
             <p>
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
