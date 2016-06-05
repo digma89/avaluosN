@@ -72,6 +72,22 @@ border-radius: 5px;
     max-height:250px;
 }
 
+.textBox{
+  padding: 10px;
+  width: 100%;  
+  min-height: 300px;
+  background-color:#fff;
+  border-width:1px;
+  border-style:solid;
+  border-bottom-color:#aaa;
+  border-right-color:#aaa;
+  border-top-color:#ddd;
+  border-left-color:#ddd;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px; 
+}
+
 
 /*************************
 ********* Quienes Somos ******
