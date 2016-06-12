@@ -8,11 +8,11 @@ h1 h2 h3 h4 h5 h6 p {
 #wrapper {  
    font-family:  'Arial';   
    font-size: 17px;
-  
+       
 }
 
 .texto{
-  font-size: 18px;
+  font-size: 17px;
   text-align: justify;
 }
 /*************************
@@ -40,13 +40,16 @@ body{
 
 
 .img-responsive{
-  width: 100%;  
+  width: 100%; 
+  -moz-border-radius: 5px;
+  border-radius: 5px;   
 }
 
 /*Remove dotted line when clik something*/
 a{
 outline: medium none !important;
 }
+
 
 /*************************
 *******Header******
@@ -75,6 +78,8 @@ border-radius: 5px;
     margin:auto; 
     width: 100%; 	
     max-height:350px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .textBox{
@@ -93,6 +98,16 @@ border-radius: 5px;
   -webkit-border-radius:3px; 
 }
 
+.carousel-control.left{
+  -moz-border-radius: 5px;
+  border-radius: 5px;  
+}
+
+.carousel-control.right{
+  -moz-border-radius: 5px;
+  border-radius: 5px;  
+}
+
 
 /*************************
 ********* Quienes Somos ******
@@ -103,15 +118,23 @@ border-radius: 5px;
 ********* Contact CSS ******
 **************************/
 
+.btn-default {   
+    color:#777777;   
+}
 
+
+.btn-default:hover {    
+    background-color: #f8f8f8; 
+    color:#777777;   
+}
 
 /***********************
 ********* Footer ******
 ************************/
 #footer {    
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: #777777;
   background: #f8f8f8;
   width: 70%;
